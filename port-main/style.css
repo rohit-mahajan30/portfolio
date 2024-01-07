@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Toto:wght@600&family=Source+Code+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.head{
+    z-index: 1000;
+    width: 100%;
+    height: 8vw;
+    position: fixed;
+    background-color: rgb(243 243 243);
+}
+.head_nav{
+display: flex;
+justify-content: space-around;
+}
+.head_png{
+display: flex;
+padding: 5px;
+margin: 5px;
+}
+.head_nav img{
+    height: 6vw;
+    background-color: #facf0f;
+    border-radius: 500px;
+    padding: 3px;
+    margin-right: 1vw;
+}
+.name{
+    font-family: 'Noto Serif Toto', serif;
+justify-items: center;
+font-size: 30px;
+margin-top: 2vw;
+margin-left: 5px;
+}
+.head_link{
+display: flex;
+}
+.head_link ul{
+    list-style: none;
+    display: flex;
+    margin-top: 1vw;
+    padding: 2vw;
+    font-family: 'Noto Serif Toto', serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Titillium Web', sans-serif;
+    color: black;
+    font-size: 130%;
+    font-weight: bolder;
+}
+.head_link:hover{
+    color: #facf0f;
+    cursor: pointer;
+    
+}
+.head_link ul li{
+    margin-left: 4vw;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.side_nav{
+    float: left;
+    margin-top: -29vw;
+    margin-left: 10px;
+    background-color: rgb(243 243 243);
+}
+.side_nav img{ 
+    margin: 4px;
+    padding: 8px;
+    height: 50px;
+}
+.body{
+    background:url(media/back4.jpg);
+    height: 50vw;
+    position: relative; 
+    
+}
+.body_cont{
+    /* background-color: rgb(243 243 243); */
+    position: inherit;
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    padding: 10vw;
+}
+.above_name{
+    padding-bottom: 20px;
+    text-align: justify;
+     font-size: 25px;
+    font-family: 'Noto Serif Toto', serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Titillium Web', sans-serif;
+}
+.main_h1{
+    font-size: 50px;
+}
+.below_name{
+    padding: 15px;
+    font-size: 25px;
+    font-family: 'Noto Serif Toto', serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.info{
+    background-color: rgb(243 243 243);
+}
+.body_btn{
+    margin-top: 10vh;
+    
+}
+.body_btn  a{
+    background-color: #facf0f;
+    color: black;
+    font-family: 'Titillium Web', sans-serif;
+    margin-left: 5vw;
+    padding: 15px;
+    border-radius: 30px;
+}
+.body_btn a:hover{
+    background-color: black;
+    color: #facf0f;
+}
+
+.about {
+    height: 85vh;
+    margin-top: 80px;
+    padding-left: 10%;
+    text-align: center;
+    background-color: white;
+    
+}
+ h2{
+    
+    text-align: center;
+    position: inherit;
+   padding-bottom: 20px;
+   font-size: 3rem;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about_cont p{
+    font-family: 'Noto Serif Toto', serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Titillium Web', sans-serif;
+}
+.about_skill{
+    display: flex;
+   gap: 20%;
+   padding-top: 50px;
+   height: 70vh;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.about_content p{
+    margin-top: 15px;
+    font-family: 'Noto Serif Toto', serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: justify;
+    font-size: 21px;
+}
+.about_content p span{
+   background-color: #facf0f;
+   padding: 2px;
+}
+.btn_contact{
+    background-color: #facf0f;
+    color: black;
+    margin-left: 35%;
+    margin-top: 20%;
+   padding: 15px;
+   border-radius: 30px;
+}
+.btn_contact:hover{
+    background-color: black;
+    color: #facf0f;
+}
+.skill{
+    margin-right: 10%;
+}
+.my_skill{
+    margin-top: 25px;
+    background-color: rgba(153,153,153,.2);
+    font-family: 'Noto Serif Toto', serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;    
+}
+.project{
+    height: 80vh;
+    margin-top: -40px;
+    text-align: center;
+    background-color:  white;
+    
+}
+.project_head{
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.project_info{
+    display: flex;
+}
+.project_info img{
+    height: 300px;
+}
+.pf{
+    margin: 40px;
+    font-size: 1.5rem;
+    font-family: 'Noto Serif Toto', serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Titillium Web', sans-serif;
+}
+.pf p{
+    margin-top: 20px;  
+}
+.pf a{
+    background-color: #facf0f;
+    color: black;
+    margin-top: 20%;
+   padding: 15px;
+   border-radius: 30px;
+}
+
+
+
+
+.project2{
+    margin-top: 20vh;
+    display: flex;
+
+}
+.project2_info img{
+    height: 300px;
+}
+.p2f{
+    margin: 40px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Noto Serif Toto', serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Titillium Web', sans-serif;
+}
+.p2f p{
+    margin-top: 20px;  
+
+}
+
+
+
+
+
+
+
+
+.contact_here{
+    height: 110vh;
+    margin-top: 10px;
+    background-color: #fff;
+}
+.con_head{
+    padding-top: 80px;
+}
+.contact_here p{
+    margin-top: 25px;
+    font-family: 'Noto Serif Toto', serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    font-size: 21px;
+    margin-bottom: 30px;
+}
+.form{
+   text-align: justify;
+    width: 50vw;
+    margin-left: 22vw;
+    padding-top: 22px;
+    height: 80vh;
+    background-color: rgb(243 243 243);
+}
+.label{
+    font-size: 25px;
+    color: black;
+    margin: 10%;
+    font-family: 'Noto Serif Toto', serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Titillium Web', sans-serif;
+}
+.ip{
+    margin-left: 10%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: white;
+    width: 80%;
+    height: 40px;
+}
+.ta{
+    margin-left: 10%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: white;
+    width: 80%;
+}
+.button{
+    margin-left: 40%;
+    margin-top: 2%;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #facf0f;
+    color: black;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: black;
+    color: #facf0f;
+}
+.form ::placeholder{
+    color: black;
+    padding-left: 10px;
+}
+.footer{
+    background-color: rgb(243 243 243);
+    padding-top: 4%;
+    margin-top: 40vh;
+    height: 25vh;
+    display: flex;
+    column-gap: 50px;
+}
+.foot_info{
+    width: 40vw;
+    padding-left: 10%;
+}
+.foot_info h1{
+    padding-bottom: 20px;
+}
+.foot_info p{
+    font-family: 'Noto Serif Toto', serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 19px;
+}
+.foot_social{
+    padding-left: 100px;
+    margin-top: -20px
+}
+.foot_social h3{
+    padding-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+.foot_social img{
+    height: 60px;
+    padding-right: 20px;
+}
+.lower_foot{
+    background-color: rgb(243 243 243);
+    color: black;
+    border-top:solid black 2px;
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    padding-top: 15px;
+    font-size: 20px;
+}
